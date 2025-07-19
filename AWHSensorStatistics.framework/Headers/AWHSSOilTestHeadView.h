@@ -8,10 +8,10 @@
 #import <UIKit/UIKit.h>
 
 NS_ASSUME_NONNULL_BEGIN
-typedef void(^AWHSSReturnBtnClick)(NSString *str);
+typedef void(^AWHSSOilTestReturnBtnClick)(NSString *str);
 @interface AWHSSOilTestHeadView : UIView
 /** */
-@property(nonatomic,copy)AWHSSReturnBtnClick ReturnBtnClick;
+@property(nonatomic,copy)AWHSSOilTestReturnBtnClick ReturnBtnClick;
 @property(nonatomic,strong)UIButton *optimizeBtn;
 @end
 

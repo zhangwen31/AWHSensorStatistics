@@ -9,12 +9,12 @@
 #import "AWHSSOilModel.h"
 NS_ASSUME_NONNULL_BEGIN
 
-typedef void(^AWHSSReturnBtnClick)(NSString *str);
+typedef void(^AWHSSOilLandscapeReturnBtnClick)(NSString *str);
 @interface AWHSSOilLandscapeTableView : UIView<UITableViewDelegate,UITableViewDataSource>
 @property(nonatomic,strong)UITableView *tableView;
 @property(nonatomic,strong)AWHSSOilModel *model;
 @property(nonatomic,copy)NSString *optimize;
-@property(nonatomic,copy)AWHSSReturnBtnClick ReturnBtnClick;
+@property(nonatomic,copy)AWHSSOilLandscapeReturnBtnClick ReturnBtnClick;
 - (void)refreshData;
 
 @end

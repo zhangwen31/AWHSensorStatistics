@@ -7,8 +7,8 @@
 
 #import <AWHBBasicBusiness/AWHBBBaseViewController.h>
 #import <AWHBBasicBusiness/AWHBBCarModel.h>
-#import "AWHSSOilQuantityStatisticsListDetailModel.h"
-#import "AWHSSOilQuantityStatistics.h"
+#import <AWHSensorStatistics/AWHSSOilQuantityStatisticsListDetailModel.h>
+#import <AWHSensorStatistics/AWHSSOilQuantityStatistics.h>
 
 NS_ASSUME_NONNULL_BEGIN
 

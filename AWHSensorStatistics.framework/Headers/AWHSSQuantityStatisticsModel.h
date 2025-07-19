@@ -15,9 +15,9 @@ NS_ASSUME_NONNULL_BEGIN
 
 @property(nonatomic,strong)NSArray<AWHOSQuantityStatisticsDetailsModel *> *details;
 
-@property(nonatomic,strong)NSArray<AWHOSQuantityStatisticsDetailsModel *> *adds;
+@property(nonatomic,strong)NSArray<AWHSSQuantityStatisticsAddsModel *> *adds;
 
-@property(nonatomic,strong)NSArray<AWHOSQuantityStatisticsDetailsModel *> *leaks;
+@property(nonatomic,strong)NSArray<AWHSSQuantityStatisticsAddsModel *> *leaks;
 @end
 
 NS_ASSUME_NONNULL_END

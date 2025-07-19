@@ -13,8 +13,8 @@ typedef void(^ReturnBtnTitle)(NSString *str);
 /** */
 @property(nonatomic,copy)NSArray *titleArr;
 @property(nonatomic,copy)NSArray *imageArr;
-@property(nonatomic,strong)UIButton *btn1;
-@property(nonatomic,strong)UIButton *btn2;
+//@property(nonatomic,strong)UIButton *btn1;
+//@property(nonatomic,strong)UIButton *btn2;
 /** */
 @property(nonatomic,copy)ReturnBtnTitle ReturnBtnTitle;
 @end

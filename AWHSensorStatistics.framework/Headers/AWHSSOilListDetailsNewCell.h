@@ -20,6 +20,8 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, strong) UILabel *label6;
 @property (nonatomic, assign) BOOL isShowLine;
 @property (nonatomic, strong) UIColor *labelColor;
+//上一个界面是否是竖屏
+@property(nonatomic,assign)BOOL isVerticalScreenJion;
 @property(nonatomic,assign) AWHSSOilQuantityStatisticsType type;
 
 @end

@@ -6,7 +6,7 @@
 //
 
 #import <AWHBBasicBusiness/AWHBBBaseViewController.h>
-#import "AWHSSOilModel.h"
+#import <AWHSensorStatistics/AWHSSOilModel.h>
 NS_ASSUME_NONNULL_BEGIN
 
 @interface AWHSSOilTestDetailsViewController : AWHBBBaseViewController

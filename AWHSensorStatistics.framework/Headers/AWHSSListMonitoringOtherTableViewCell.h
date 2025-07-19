@@ -14,7 +14,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property(nonatomic,strong)UILabel *titleLab;
 @property (nonatomic, strong) UIView *lineView;
 @property (nonatomic, assign) BOOL isHiddenLine;
-+(CGFloat)tableView:(UITableView*)tableView rowHeightForIndexPath:(NSIndexPath *)indexPath andSelectArray:(NSMutableArray *)selectArray;
++(CGFloat)tableView:(UITableView*)tableView rowHeightForIndexPath:(NSIndexPath *)indexPath andSelectArray:(NSMutableArray *)selectArray isOffline:(BOOL)isOffline offlineDuration:(NSString *)offlineDuration;
 @end
 
 NS_ASSUME_NONNULL_END

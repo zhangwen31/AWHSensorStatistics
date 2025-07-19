@@ -1,6 +1,6 @@
 framework module AWHSensorStatistics {
   umbrella header "AWHSensorStatistics.h"
-
   export *
+
   module * { export * }
 }

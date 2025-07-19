@@ -10,12 +10,12 @@
 #import "AWHSSOilQuantityStatistics.h"
 
 NS_ASSUME_NONNULL_BEGIN
-typedef void(^ReturnBtnClick)(NSInteger row);
+typedef void(^AWHSSReturnBtnClick)(NSInteger row);
 @interface AWHSSOilLandscapeNewTableView : UIView<UITableViewDelegate,UITableViewDataSource>
 @property(nonatomic,strong)UITableView *tableView;
 @property(nonatomic,strong)AWHSSOilQuantityStatisticsListDetailModel *model;
 @property(nonatomic,assign) AWHSSOilQuantityStatisticsType type;
-@property(nonatomic,copy) ReturnBtnClick returnBtnClick;
+@property(nonatomic,copy) AWHSSReturnBtnClick returnBtnClick;
 
 @end
 
