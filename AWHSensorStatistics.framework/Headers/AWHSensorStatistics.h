@@ -16,3 +16,5 @@ FOUNDATION_EXPORT const unsigned char AWHSensorStatisticsVersionString[];
 // In this header, you should import all the public headers of your framework using statements like #import <AWHSensorStatistics/PublicHeader.h>
 
 #import <AWHSensorStatistics/AWHSSQuantityStatisticsAddsModel.h>
+#import <AWHSensorStatistics/AWHSSFuelConsumptionAnalysisViewController.h>
+#import <AWHSensorStatistics/AWHSSLeakingOilRefuelingAnalysisViewController.h>

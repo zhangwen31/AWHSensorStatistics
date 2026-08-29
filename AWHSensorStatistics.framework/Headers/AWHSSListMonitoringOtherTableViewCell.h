@@ -9,7 +9,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface AWHSSListMonitoringOtherTableViewCell : UITableViewCell
+@interface AWHSSListMonitoringOtherTableViewCell : AWHBBBTableViewCell
 @property(nonatomic,strong)UILabel *detailTextLab;
 @property(nonatomic,strong)UILabel *titleLab;
 @property (nonatomic, strong) UIView *lineView;

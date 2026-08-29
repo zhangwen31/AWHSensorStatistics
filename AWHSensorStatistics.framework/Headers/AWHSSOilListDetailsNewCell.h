@@ -10,7 +10,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface AWHSSOilListDetailsNewCell : UITableViewCell
+@interface AWHSSOilListDetailsNewCell : AWHBBBTableViewCell
 
 @property (nonatomic, strong) UILabel *label1;
 @property (nonatomic, strong) UILabel *label2;
